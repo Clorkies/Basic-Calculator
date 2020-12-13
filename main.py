@@ -70,8 +70,9 @@ while new_Task:
         if new_Task1.strip().lower() == "yes":
             new_Task = True
         elif new_Task1.strip().lower() == "no":
-            new_Task = False
-            print("Thank You!\n----------------")
+              print("Thank You!\n----------------")
+              new_Task = False
+          
 
 
 # Good Job
